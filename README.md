@@ -1,12 +1,63 @@
-# React + Vite
+# Solana Token Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Solana Logo](https://solana.com/src/img/branding/solanaLogoMark.svg)
 
-Currently, two official plugins are available:
+A React-based interface for creating, minting, and managing SPL tokens on the Solana blockchain.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- 🪙 Create new SPL tokens with custom parameters
+- 🏗️ Mint additional tokens to existing token accounts
+- 💸 Send tokens to other wallet addresses
+- 📊 Check token balances
+- 🔄 Full transaction history tracking
+- 💰 SOL balance monitoring
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **Frontend**: React.js
+- **Wallet Integration**: `@solana/wallet-adapter-react`
+- **Solana SDK**: `@solana/web3.js`, `@solana/spl-token`
+- **State Management**: React Context API
+
+## Installation
+
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/your-username/coinsight.git
+   cd coinsight
+   ```
+
+2. **Install dependencies**:
+   ```sh
+   npm install
+   ```
+
+3. **Start the Application**:
+   ```sh
+   npm start
+   ```
+4. Open your browser and navigate to http://localhost:3000.
+
+   ## Contributing
+
+  Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+
+  - Fork the Project
+  - Create your Feature Branch (git checkout -b feature/AmazingFeature)
+  - Commit your changes (git commit -m 'Add some AmazingFeature')
+  - Push to the Branch (git push origin feature/AmazingFeature)
+  - Open a Pull Request
+
+## License
+Distributed under the MIT License. See LICENSE for more information.
+
+## Contact
+
+For any inquiries, please reach out to tripathitanu02@gmail.com.
+
+Project Link: https://solana-token-manager-ecru.vercel.app/
+
+### Made with ❤️ by Tanu Tripathi
+
+   
